@@ -1,237 +1,4 @@
-<!DOCTYPE html>
-<html lang="en"><!--
- __  __                __                                     __
-/\ \/\ \              /\ \             __                    /\ \
-\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
- \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
-  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
-   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
-    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
-                /\___/                \ \____/
-                \/__/                  \/___/
-
-Powered by Hydejack v9.1.6 <https://hydejack.com/>
--->
-
-
-
-
-
-
-
-<head>
-  
-
-
-
-
-  <meta name="robots" content="noindex">
-
-
-
-  
-    
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>LICENSE | Aiden Zelakiewicz</title>
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="LICENSE" />
-<meta name="author" content="<Aiden> <Zelakiewicz>" />
-<meta property="og:locale" content="en" />
-<meta name="description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
-<meta property="og:description" content="Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress." />
-<link rel="canonical" href="http://localhost:4000/LICENSE/" />
-<meta property="og:url" content="http://localhost:4000/LICENSE/" />
-<meta property="og:site_name" content="Aiden Zelakiewicz" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="LICENSE" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"<Aiden> <Zelakiewicz>"},"dateModified":"2022-06-30T09:52:26-07:00","description":"Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.","headline":"LICENSE","url":"http://localhost:4000/LICENSE/"}</script>
-<!-- End Jekyll SEO tag -->
-
-
-  
-
-  
-
-
-
-  <meta name="theme-color" content="rgb(25,55,71)">
-
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-
-<meta name="mobile-web-app-capable" content="yes">
-
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Aiden Zelakiewicz">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-
-<meta name="application-name" content="Aiden Zelakiewicz">
-
-<meta name="generator" content="Hydejack v9.1.6" />
-
-
-<link rel="alternate" href="http://localhost:4000/LICENSE/" hreflang="en">
-
-<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Aiden Zelakiewicz" />
-
-
-<link rel="shortcut icon"    href="/assets/icons/favicon.ico">
-<link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
-
-<link rel="manifest" href="/assets/site.webmanifest">
-
-<link rel="dns-prefetch" href="https://fonts.googleapis.com"><link rel="dns-prefetch" href="https://fonts.gstatic.com">
-
-
-
-<link rel="preload" href="/assets/img/swipe.svg" as="image" id="_hrefSwipeSVG">
-
-
-
-
-
-
-<script>!function(r,c){"use strict";function a(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}r.loadJS=function(e,t){var n=c.createElement("script"),e=(n.src=e,t&&a(n,"load",t,{once:!0}),c.scripts[0]);return e.parentNode.insertBefore(n,e),n},r._loaded=!1,r.loadJSDeferred=function(e,t){var n=c.createElement("script");function o(){r._loaded=!0,t&&a(n,"load",t,{once:!0});var e=c.scripts[0];e.parentNode.insertBefore(n,e)}return n.src=e,r._loaded?o():a(r,"load",o,{once:!0}),n},r.setRel=r.setRelStylesheet=function(e){a(c.getElementById(e),"load",function(){this.rel="stylesheet"},{once:!0})}}(window,document);
-!function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
-!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
-!function(w) {
-  w._baseURL = '/';
-  w._publicPath = '/assets/js/';
-  w._noPushState = false;
-  w._noDrawer = false;
-  w._noNavbar = false;
-  w._noToc = false;
-  w._noSearch = false;
-  w._search = {
-    DATA_URL: '/assets/sitedata.json?no-cache',
-    STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2022-06-30T11:52:22-07:00',
-  };
-  w._clapButton = true;
-}(window);</script>
-
-
-<script async src="/assets/bower_components/MathJax/es5/tex-mml-chtml.js" id="_MathJax"></script>
-
-
-<!--[if gt IE 8]><!---->
-
-  
-
-
-
-
-<link rel="stylesheet" href="/assets/css/hydejack-9.1.6.css" id="_stylePreload">
-<link rel="stylesheet" href="/assets/icomoon/style.css" id="_iconsPreload">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i&display=swap" id="_fontsPreload">
-
-
-
-  <style id="_pageStyle">
-
-html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);--accent-color-highlight: rgba(79,177,186,0.1);--accent-color-darkened: #409ba3;--theme-color: rgb(25,55,71)}
-
-</style>
-
-
-<!--<![endif]-->
-
-
-
-
-</head>
-
-<body class="dark-mode no-break-layout">
-  
-
-
-<hy-push-state
-  id="_pushState"
-  replace-selector="#_main"
-  link-selector="a[href]:not([href^='/assets/']):not(.external):not(.no-push-state)"
-  script-selector="script"
-  duration="500"
-  hashchange
->
-  
-  
-  <div id="_navbar" class="navbar fixed-top">
-  <div class="content">
-    <span class="sr-only">Jump to:</span>
-    <div class="nav-btn-bar">
-      <a id="_menu" class="nav-btn no-hover" href="#_drawer--opened">
-        <span class="sr-only">Navigation</span>
-        <span class="icon-menu"></span>
-      </a>
-      <div class="nav-span"></div>
-    </div>
-  </div>
-</div>
-<hr class="sr-only" hidden />
-
-  <main
-  id="_main"
-  class="content layout-plain"
-  role="main"
->
-  <nav id="breadcrumbs" class="screen-only"><ul>
-  
-  
-    <li><a href="/">home</a></li>
-    
-      <li>
-        
-          <span>/</span>
-          <span>LICENSE</span>
-        
-      </li>
-    
-  
-</ul></nav>
-  <article class="page mb6" role="article">
-  <header>
-    <h1 class="page-title">LICENSE</h1>
-    
-
-
-
-  <div class="hr pb0"></div>
-
-
-  </header>
-
-  <ul class="large-only" id="markdown-toc">
-  <li><a href="#preamble" id="markdown-toc-preamble">Preamble</a></li>
-  <li><a href="#terms-and-conditions" id="markdown-toc-terms-and-conditions">TERMS AND CONDITIONS</a>    <ul>
-      <li><a href="#0-definitions" id="markdown-toc-0-definitions">0. Definitions</a></li>
-      <li><a href="#1-source-code" id="markdown-toc-1-source-code">1. Source Code</a></li>
-      <li><a href="#2-basic-permissions" id="markdown-toc-2-basic-permissions">2. Basic Permissions</a></li>
-      <li><a href="#3-protecting-users-legal-rights-from-anti-circumvention-law" id="markdown-toc-3-protecting-users-legal-rights-from-anti-circumvention-law">3. Protecting Users’ Legal Rights From Anti-Circumvention Law</a></li>
-      <li><a href="#4-conveying-verbatim-copies" id="markdown-toc-4-conveying-verbatim-copies">4. Conveying Verbatim Copies</a></li>
-      <li><a href="#5-conveying-modified-source-versions" id="markdown-toc-5-conveying-modified-source-versions">5. Conveying Modified Source Versions</a></li>
-      <li><a href="#6-conveying-non-source-forms" id="markdown-toc-6-conveying-non-source-forms">6. Conveying Non-Source Forms</a></li>
-      <li><a href="#7-additional-terms" id="markdown-toc-7-additional-terms">7. Additional Terms</a></li>
-      <li><a href="#8-termination" id="markdown-toc-8-termination">8. Termination</a></li>
-      <li><a href="#9-acceptance-not-required-for-having-copies" id="markdown-toc-9-acceptance-not-required-for-having-copies">9. Acceptance Not Required for Having Copies</a></li>
-      <li><a href="#10-automatic-licensing-of-downstream-recipients" id="markdown-toc-10-automatic-licensing-of-downstream-recipients">10. Automatic Licensing of Downstream Recipients</a></li>
-      <li><a href="#11-patents" id="markdown-toc-11-patents">11. Patents</a></li>
-      <li><a href="#12-no-surrender-of-others-freedom" id="markdown-toc-12-no-surrender-of-others-freedom">12. No Surrender of Others’ Freedom</a></li>
-      <li><a href="#13-use-with-the-gnu-affero-general-public-license" id="markdown-toc-13-use-with-the-gnu-affero-general-public-license">13. Use with the GNU Affero General Public License</a></li>
-      <li><a href="#14-revised-versions-of-this-license" id="markdown-toc-14-revised-versions-of-this-license">14. Revised Versions of this License</a></li>
-      <li><a href="#15-disclaimer-of-warranty" id="markdown-toc-15-disclaimer-of-warranty">15. Disclaimer of Warranty</a></li>
-      <li><a href="#16-limitation-of-liability" id="markdown-toc-16-limitation-of-liability">16. Limitation of Liability</a></li>
-      <li><a href="#17-interpretation-of-sections-15-and-16" id="markdown-toc-17-interpretation-of-sections-15-and-16">17. Interpretation of Sections 15 and 16</a></li>
-    </ul>
-  </li>
-</ul>
-
-<h2 class="no_toc" id="gnu-general-public-license">GNU GENERAL PUBLIC LICENSE</h2>
-
-<p>Version 3, 29 June 2007</p>
+I"<�<p>Version 3, 29 June 2007</p>
 
 <p>Copyright (C) 2007 Free Software Foundation, Inc.
 <a href="http://fsf.org/">http://fsf.org/</a></p>
@@ -239,7 +6,7 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 <p>Everyone is permitted to copy and distribute verbatim copies of this
 license document, but changing it is not allowed.</p>
 
-<h3 id="preamble">Preamble</h3>
+<h2 id="preamble">Preamble</h2>
 
 <p>The GNU General Public License is a free, copyleft license for
 software and other kinds of works.</p>
@@ -304,9 +71,9 @@ assures that patents cannot be used to render the program non-free.</p>
 <p>The precise terms and conditions for copying, distribution and
 modification follow.</p>
 
-<h3 id="terms-and-conditions">TERMS AND CONDITIONS</h3>
+<h2 id="terms-and-conditions">TERMS AND CONDITIONS</h2>
 
-<h4 id="0-definitions">0. Definitions</h4>
+<h3 id="0-definitions">0. Definitions</h3>
 
 <p>“This License” refers to version 3 of the GNU General Public License.</p>
 
@@ -346,7 +113,7 @@ work under this License, and how to view a copy of this License. If
 the interface presents a list of user commands or options, such as a
 menu, a prominent item in the list meets this criterion.</p>
 
-<h4 id="1-source-code">1. Source Code</h4>
+<h3 id="1-source-code">1. Source Code</h3>
 
 <p>The “source code” for a work means the preferred form of the work for
 making modifications to it. “Object code” means any non-source form of
@@ -387,7 +154,7 @@ regenerate automatically from other parts of the Corresponding Source.</p>
 <p>The Corresponding Source for a work in source code form is that same
 work.</p>
 
-<h4 id="2-basic-permissions">2. Basic Permissions</h4>
+<h3 id="2-basic-permissions">2. Basic Permissions</h3>
 
 <p>All rights granted under this License are granted for the term of
 copyright on the Program, and are irrevocable provided the stated
@@ -412,7 +179,7 @@ copyrighted material outside their relationship with you.</p>
 conditions stated below. Sublicensing is not allowed; section 10 makes
 it unnecessary.</p>
 
-<h4 id="3-protecting-users-legal-rights-from-anti-circumvention-law">3. Protecting Users’ Legal Rights From Anti-Circumvention Law</h4>
+<h3 id="3-protecting-users-legal-rights-from-anti-circumvention-law">3. Protecting Users’ Legal Rights From Anti-Circumvention Law</h3>
 
 <p>No covered work shall be deemed part of an effective technological
 measure under any applicable law fulfilling obligations under article
@@ -428,7 +195,7 @@ operation or modification of the work as a means of enforcing, against
 the work’s users, your or third parties’ legal rights to forbid
 circumvention of technological measures.</p>
 
-<h4 id="4-conveying-verbatim-copies">4. Conveying Verbatim Copies</h4>
+<h3 id="4-conveying-verbatim-copies">4. Conveying Verbatim Copies</h3>
 
 <p>You may convey verbatim copies of the Program’s source code as you
 receive it, in any medium, provided that you conspicuously and
@@ -441,7 +208,7 @@ recipients a copy of this License along with the Program.</p>
 <p>You may charge any price or no price for each copy that you convey,
 and you may offer support or warranty protection for a fee.</p>
 
-<h4 id="5-conveying-modified-source-versions">5. Conveying Modified Source Versions</h4>
+<h3 id="5-conveying-modified-source-versions">5. Conveying Modified Source Versions</h3>
 
 <p>You may convey a work based on the Program, or the modifications to
 produce it from the Program, in the form of source code under the
@@ -478,7 +245,7 @@ beyond what the individual works permit. Inclusion of a covered work
 in an aggregate does not cause this License to apply to the other
 parts of the aggregate.</p>
 
-<h4 id="6-conveying-non-source-forms">6. Conveying Non-Source Forms</h4>
+<h3 id="6-conveying-non-source-forms">6. Conveying Non-Source Forms</h3>
 
 <p>You may convey a covered work in object code form under the terms of
 sections 4 and 5, provided that you also convey the machine-readable
@@ -576,7 +343,7 @@ documented (and with an implementation available to the public in
 source code form), and must require no special password or key for
 unpacking, reading or copying.</p>
 
-<h4 id="7-additional-terms">7. Additional Terms</h4>
+<h3 id="7-additional-terms">7. Additional Terms</h3>
 
 <p>“Additional permissions” are terms that supplement the terms of this
 License by making exceptions from one or more of its conditions.
@@ -637,7 +404,7 @@ where to find the applicable terms.</p>
 form of a separately written license, or stated as exceptions; the
 above requirements apply either way.</p>
 
-<h4 id="8-termination">8. Termination</h4>
+<h3 id="8-termination">8. Termination</h3>
 
 <p>You may not propagate or modify a covered work except as expressly
 provided under this License. Any attempt otherwise to propagate or
@@ -665,7 +432,7 @@ this License. If your rights have been terminated and not permanently
 reinstated, you do not qualify to receive new licenses for the same
 material under section 10.</p>
 
-<h4 id="9-acceptance-not-required-for-having-copies">9. Acceptance Not Required for Having Copies</h4>
+<h3 id="9-acceptance-not-required-for-having-copies">9. Acceptance Not Required for Having Copies</h3>
 
 <p>You are not required to accept this License in order to receive or run
 a copy of the Program. Ancillary propagation of a covered work
@@ -676,7 +443,7 @@ modify any covered work. These actions infringe copyright if you do
 not accept this License. Therefore, by modifying or propagating a
 covered work, you indicate your acceptance of this License to do so.</p>
 
-<h4 id="10-automatic-licensing-of-downstream-recipients">10. Automatic Licensing of Downstream Recipients</h4>
+<h3 id="10-automatic-licensing-of-downstream-recipients">10. Automatic Licensing of Downstream Recipients</h3>
 
 <p>Each time you convey a covered work, the recipient automatically
 receives a license from the original licensors, to run, modify and
@@ -701,7 +468,7 @@ rights granted under this License, and you may not initiate litigation
 any patent claim is infringed by making, using, selling, offering for
 sale, or importing the Program or any portion of it.</p>
 
-<h4 id="11-patents">11. Patents</h4>
+<h3 id="11-patents">11. Patents</h3>
 
 <p>A “contributor” is a copyright holder who authorizes use under this
 License of the Program or a work on which the Program is based. The
@@ -770,7 +537,7 @@ license was granted, prior to 28 March 2007.</p>
 any implied license or other defenses to infringement that may
 otherwise be available to you under applicable patent law.</p>
 
-<h4 id="12-no-surrender-of-others-freedom">12. No Surrender of Others’ Freedom</h4>
+<h3 id="12-no-surrender-of-others-freedom">12. No Surrender of Others’ Freedom</h3>
 
 <p>If conditions are imposed on you (whether by court order, agreement or
 otherwise) that contradict the conditions of this License, they do not
@@ -783,7 +550,7 @@ from those to whom you convey the Program, the only way you could
 satisfy both those terms and this License would be to refrain entirely
 from conveying the Program.</p>
 
-<h4 id="13-use-with-the-gnu-affero-general-public-license">13. Use with the GNU Affero General Public License</h4>
+<h3 id="13-use-with-the-gnu-affero-general-public-license">13. Use with the GNU Affero General Public License</h3>
 
 <p>Notwithstanding any other provision of this License, you have
 permission to link or combine any covered work with a work licensed
@@ -794,7 +561,7 @@ but the special requirements of the GNU Affero General Public License,
 section 13, concerning interaction through a network will apply to the
 combination as such.</p>
 
-<h4 id="14-revised-versions-of-this-license">14. Revised Versions of this License</h4>
+<h3 id="14-revised-versions-of-this-license">14. Revised Versions of this License</h3>
 
 <p>The Free Software Foundation may publish revised and/or new versions
 of the GNU General Public License from time to time. Such new versions
@@ -820,7 +587,7 @@ permissions. However, no additional obligations are imposed on any
 author or copyright holder as a result of your choosing to follow a
 later version.</p>
 
-<h4 id="15-disclaimer-of-warranty">15. Disclaimer of Warranty</h4>
+<h3 id="15-disclaimer-of-warranty">15. Disclaimer of Warranty</h3>
 
 <p>THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
 APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
@@ -832,7 +599,7 @@ PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE
 DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR
 CORRECTION.</p>
 
-<h4 id="16-limitation-of-liability">16. Limitation of Liability</h4>
+<h3 id="16-limitation-of-liability">16. Limitation of Liability</h3>
 
 <p>IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
 WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR
@@ -844,7 +611,7 @@ LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM
 TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER
 PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
 
-<h4 id="17-interpretation-of-sections-15-and-16">17. Interpretation of Sections 15 and 16</h4>
+<h3 id="17-interpretation-of-sections-15-and-16">17. Interpretation of Sections 15 and 16</h3>
 
 <p>If the disclaimer of warranty and limitation of liability provided
 above cannot be given local legal effect according to their terms,
@@ -852,308 +619,4 @@ reviewing courts shall apply local law that most closely approximates
 an absolute waiver of all civil liability in connection with the
 Program, unless a warranty or assumption of liability accompanies a
 copy of the Program in return for a fee.</p>
-
-</article>
-
-
-  <hr class="dingbat related mb6" />
-
-
-  
-<footer class="content" role="contentinfo">
-  <hr/>
-  
-    <p><small class="copyright">© 2021. All rights reserved.
-</small></p>
-  
-  
-    <nav class="legal"><small>
-    
-      
-      <a class="heading flip-title" href="/LICENSE/">LICENSE</a>
-      |
-    
-      
-      <a class="heading flip-title" href="/NOTICE/">NOTICE</a>
-      |
-    
-      
-      <a class="heading flip-title" href="/CHANGELOG/">CHANGELOG</a>
-      
-    
-    </small></nav>
-  
-    <p><small>Powered by <a class="external" href="https://hydejack.com/">Hydejack</a> v<span id="_version">9.1.6</span></small></p>
-  <hr class="sr-only"/>
-</footer>
-
-
-</main>
-
-  <hy-drawer
-  id="_drawer"
-  class=""
-  side="left"
-  threshold="10"
-  noscroll
-  
->
-  <header id="_sidebar" class="sidebar" role="banner">
-    
-
-
-
-
-<div class="sidebar-bg sidebar-overlay" style="background-color:rgb(25,55,71);background-image:url(/assets/img/blood_moon.jpg)"></div>
-
-    <div class="sidebar-sticky">
-  <div class="sidebar-about">
-    
-    <a class="sidebar-title" href="/"><h2 class="h1">Aiden Zelakiewicz</h2></a>
-    
-    
-      <p class="">
-        astronomer and student at tOSU
-
-      </p>
-    
-  </div>
-
-  <nav class="sidebar-nav heading" role="navigation">
-    <span class="sr-only">Navigation:</span>
-<ul>
-  
-    
-      
-      <li>
-        <a
-          id="_drawer--opened"
-          href="/example/"
-          class="sidebar-nav-item "
-          
-        >
-          Example
-        </a>
-      </li>
-    
-      
-      <li>
-        <a
-          
-          href="/docs/"
-          class="sidebar-nav-item "
-          
-        >
-          Documentation
-        </a>
-      </li>
-    
-      
-      <li>
-        <a
-          
-          href="/about/"
-          class="sidebar-nav-item "
-          
-        >
-          About
-        </a>
-      </li>
-    
-  
-</ul>
-
-  </nav>
-
-  
-  <div class="sidebar-social">
-    <span class="sr-only">Social:</span>
-<ul>
-  
-    
-      
-
-
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  <li>
-    <a href="https://twitter.com/ShockblackFPS" title="Twitter" class="no-mark-external">
-      <span class="icon-twitter"></span>
-      <span class="sr-only">Twitter</span>
-    </a>
-  </li>
-
-
-    
-      
-
-
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  <li>
-    <a href="https://github.com/Shockblack" title="GitHub" class="no-mark-external">
-      <span class="icon-github"></span>
-      <span class="sr-only">GitHub</span>
-    </a>
-  </li>
-
-
-    
-  
-</ul>
-
-  </div>
-</div>
-  </header>
-</hy-drawer>
-<hr class="sr-only" hidden />
-
-</hy-push-state>
-
-
-  <!--[if gt IE 10]><!---->
-  <script nomodule>!function(){var t,n=document.createElement("script");!("noModule"in n)&&"onbeforeload"in n&&(t=!1,document.addEventListener("beforeload",function(e){if(e.target===n)t=!0;else if(!e.target.hasAttribute("nomodule")||!t)return;e.preventDefault()},!0),n.type="module",n.src=".",document.head.appendChild(n),n.remove())}();
-</script>
-  <script src="/assets/js/hydejack-9.1.6.js" type="module"></script>
-  <script src="/assets/js/LEGACY-hydejack-9.1.6.js" nomodule defer></script>
-  
-
-  
-
-<!--<![endif]-->
-  <!-- <script>
-  document.querySelector('hy-push-state').setAttribute('prefetch', '');
-
-  document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) { 
-    el.addEventListener('click', function (e) {
-      if (el.pathname === window.location.pathname) {
-        e.preventDefault();
-        e.stopPropagation();
-        document.querySelector('hy-drawer').close();
-      }
-    });
-  });
-</script> -->
-
-<!--
-Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
--->
-<script>
-  document.getElementById('_pushState').addEventListener('hy-push-state-after', function (e) {
-    function e(e){
-      (console.error?console.error:console.log).call(console,e)
-    }
-
-    function t(e){
-      return l.innerHTML='<a href="'+e.replace(/"/g,"&quot;")+'"></a>',l.childNodes[0].getAttribute("href")
-    }
-
-    function r(e,t){
-      var r=e.substr(t,2);return parseInt(r,16)
-    }
-
-    function n(e,n){
-      for(var o="",c=r(e,n),a=n+2;a<e.length;a+=2){
-        var l=r(e,a)^c;
-        o+=String.fromCharCode(l)
-      }
-      return t(o)
-    }
-
-    var o="/cdn-cgi/l/email-protection#",
-        c=".__cf_email__",
-        a="data-cfemail",
-        l=document.createElement("div");
-
-    !function(){
-      for(var t=document.getElementsByTagName("a"),r=0;r<t.length;r++)
-        try{
-          var c=t[r],a=c.href.indexOf(o);
-          a>-1&&(c.href="mailto:"+n(c.href,a+o.length))
-        }catch(t){
-          e(t)
-        }
-    }(),
-    function(){
-      for(var t=document.querySelectorAll(c),r=0;r<t.length;r++)
-        try{
-          var o=t[r],l=n(o.getAttribute(a),0),i=document.createTextNode(l);
-          o.parentNode.replaceChild(i,o)
-        }catch(t){
-          e(t)
-        }
-    }()
-  });
-</script>
-
-
-
-
-
-<div hidden>
-  
-  <h2 class="sr-only">Templates (for web app):</h2>
-
-  <template id="_animation-template">
-  <div class="animation-main fixed-top">
-    <nav id="breadcrumbs" class="screen-only"><ul>
-  
-  
-</ul></nav>
-    <div class="content">
-      <div class="page"></div>
-    </div>
-  </div>
-</template>
-
-  <template id="_loading-template">
-  <div class="loading nav-btn fr">
-    <span class="sr-only">Loading…</span>
-    <span class="icon-cog"></span>
-  </div>
-</template>
-
-  <template id="_error-template">
-  <div class="page">
-    <h1 class="page-title">Error</h1>
-    
-    
-    <p class="lead">
-      Sorry, an error occurred while loading <a class="this-link" href=""></a>.
-
-    </p>
-  </div>
-</template>
-
-  <template id="_permalink-template">
-  <a href="#" class="permalink">
-    <span class="sr-only">Permalink</span>
-    <span class="content-hash"></span>
-  </a>
-</template>
-
-</div>
-
-
-</body>
-</html>
+:ET

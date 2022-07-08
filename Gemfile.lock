@@ -1,3 +1,10 @@
+PATH
+  remote: #jekyll-theme-hydejack
+  specs:
+    jekyll-theme-hydejack (9.1.6)
+      jekyll (>= 3.8, < 5.0)
+      jekyll-include-cache (~> 0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -18,7 +25,6 @@ GEM
     concurrent-ruby (1.1.10)
     dnsruby (1.61.9)
       simpleidn (~> 0.1)
-    duktape (2.6.0.0)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -259,11 +265,11 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
-  duktape
   github-pages
   jekyll (~> 3.8)
   jekyll-compose
   jekyll-include-cache
+  jekyll-theme-hydejack!
   webrick
 
 BUNDLED WITH

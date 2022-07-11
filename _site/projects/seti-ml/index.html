@@ -25,8 +25,8 @@
 <meta property="og:title" content="BiGANs for SETI" />
 <meta name="author" content="Aiden Zelakiewicz" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="This is a research project I started working on during the Summer Undergraduate Research Program, and have been working on since. It is a continuation on work done by Dr. Samson Johnson during his 2019 JPL internship." />
-<meta property="og:description" content="This is a research project I started working on during the Summer Undergraduate Research Program, and have been working on since. It is a continuation on work done by Dr. Samson Johnson during his 2019 JPL internship." />
+<meta name="description" content="Summer research project at the Berkeley SETI Research SETI working on Bi-Directional Generative Adversarial Networks." />
+<meta property="og:description" content="Summer research project at the Berkeley SETI Research SETI working on Bi-Directional Generative Adversarial Networks." />
 <link rel="canonical" href="http://localhost:4000/projects/seti-ml/" />
 <meta property="og:url" content="http://localhost:4000/projects/seti-ml/" />
 <meta property="og:site_name" content="Aiden Zelakiewicz" />
@@ -37,7 +37,7 @@
 <meta property="twitter:image" content="http://localhost:4000/assets/img/projects/bl_greenbank.jpeg" />
 <meta property="twitter:title" content="BiGANs for SETI" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Aiden Zelakiewicz"},"dateModified":"2022-07-04T00:00:00-07:00","datePublished":"2022-07-04T00:00:00-07:00","description":"This is a research project I started working on during the Summer Undergraduate Research Program, and have been working on since. It is a continuation on work done by Dr. Samson Johnson during his 2019 JPL internship.","headline":"BiGANs for SETI","image":"http://localhost:4000/assets/img/projects/bl_greenbank.jpeg","url":"http://localhost:4000/projects/seti-ml/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Aiden Zelakiewicz"},"dateModified":"2022-07-04T00:00:00-07:00","datePublished":"2022-07-04T00:00:00-07:00","description":"Summer research project at the Berkeley SETI Research SETI working on Bi-Directional Generative Adversarial Networks.","headline":"BiGANs for SETI","image":"http://localhost:4000/assets/img/projects/bl_greenbank.jpeg","url":"http://localhost:4000/projects/seti-ml/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -102,7 +102,7 @@
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2022-07-08T14:39:36-07:00',
+    INDEX_KEY: 'index--2022-07-10T23:46:16-07:00',
   };
   w._clapButton = true;
 }(window);</script>
@@ -269,7 +269,7 @@
 
   
     <p class="note-sm" property="description">
-      This is a research project I started working on during the Summer Undergraduate Research Program, and have been working on since. It is a continuation on work done by Dr. Samson Johnson during his 2019 JPL internship.
+      Summer research project at the Berkeley SETI Research SETI working on Bi-Directional Generative Adversarial Networks.
 
     </p>
   
@@ -278,17 +278,21 @@
     <meta property="disambiguatingDescription" content="Research"/>
   </header>
 
-  <p>The <a href="https://roman.gsfc.nasa.gov/"><em>Nancy Grace Roman Space Telescope</em></a> (<em>Roman</em>) will be conducting a near infrared microlensing towards the Galactic Center (GC).
-From 2015 to 2019, the <a href="https://about.ifa.hawaii.edu/ukirt/about-us/">United Kingdom Infrared Telescope</a> (UKIRT) performed a pathfinder microlensing survey for <em>Roman</em>.
-UKIRT’s objective was to measure the microlensing event rate in the NIR due to its lessened extinction compared to the optical.
-We utilize the 2017 data from the UKIRT survey to create extinction and reddening maps towards the GC.</p>
+  <p>In the hunt for extraterrestrial intelligence, we need every improving methods.
+Once of the hardest parts for the SETI mission is finding the needle in the haystack that is an ET signal.
+One of the ways to help parse through the petabytes of data is to let computers do it!</p>
 
-<p>For this work we utilized the Red Clump (RC) and a standard candle and crayon.
-A luminosity function was fit for the magnitude and color, using the methods of <a href="https://ui.adsabs.harvard.edu/abs/2013ApJ...769...88N/abstract">Nataf et. al (2013)</a>.
-Doing so, we were able to create maps with a resolution of 2 arcminutes for both the extinction and reddening.</p>
+<p>During my summer internship at the Berkeley SETI Research Center (BSRC) I have been working with Dr. John Hoang on machine learning algorithms to help detect anomolous signals from radio data.
+Specifically I am working on creating a type of neural network called a bi-directional generative adversarial network, or BiGAN.
+These algorithms have gained a lot of popularity lately and you might have seen them creating fake celebrity images or animals.</p>
 
-<p>The source code for this project can either be found at the link at the top of the project page, or <a href="https://github.com/Shockblack/UKIRT_clean">here</a>.
-I also have a first author paper in the works, with a first draft almost ready for review.</p>
+<p>My model will take in synthetic waterfall data created using Berkeley grad student Bryan Brzycki’s <a href="https://github.com/bbrzycki/setigen">SETIGEN</a>.
+The model will then create synthetic waterfall plots by competing its generated images against the synthetic ones created to train it.
+The model is “successful” when the generator confuses the model around half of the time, meaning that it can’t destinguish between real and fake.</p>
+
+<p>During this internship I also visited my first professional conference!
+I attended Breakthrough Discuss 2022 alongside my fellow interns to learn about the leading developements in both the Breakthrough Listen and Breakthrough Starshot initiatives.</p>
+
 
 </article>
 
@@ -488,7 +492,7 @@ I am currently a double major in the Department of Physics and the Department of
     
 
 
-  <aside class="other-projects related mb4" role="complementary">  <h2>Other Projects</h2>  <div class="columns">              <div class="column column-1-2">        <article  class="project-card"  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/quasar_luminosity/#project"  >  <meta property="name" content="Quasar Luminosity"/>  <meta property="image" content="https://user-images.githubusercontent.com/84037073/157300482-ddf8a6d5-e681-4991-846b-bca2c3c8066e.jpeg"/>  <a href="/projects/quasar_luminosity/" class="no-hover no-print-link flip-project" tabindex="-1">    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img ">              <img      src="https://user-images.githubusercontent.com/84037073/157300482-ddf8a6d5-e681-4991-846b-bca2c3c8066e.jpeg"        sizes="(min-width:86em)27.5rem,(min-width:54em)24.5rem,(min-width:42em)21.5rem,42rem"    alt="Quasar Luminosity"      width="864"  height="486"  loading="lazy"/>          </div>  </a>  <h3 class="project-card-title flip-project-title">    <a href="/projects/quasar_luminosity/" class="flip-title" property="mainEntityOfPage">Quasar Luminosity</a>  </h3>      <p class="project-card-text fine" property="disambiguatingDescription">      Coursework    </p>      <a class="fill-card no-hover" href="/projects/quasar_luminosity/" tabindex="-1"><span class="sr-only">Continue reading Quasar Luminosity</span></a></article>      </div>                  <div class="column column-1-2">        <article  class="project-card"  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/extinction/#project"  >  <meta property="name" content="UKIRT Extinction Map"/>  <meta property="image" content="/assets/img/projects/AK_PSF_2017_2_final.jpg"/>  <a href="/projects/extinction/" class="no-hover no-print-link flip-project" tabindex="-1">    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img ">              <img      src="/assets/img/projects/AK_PSF_2017_2_final.jpg"        sizes="(min-width:86em)27.5rem,(min-width:54em)24.5rem,(min-width:42em)21.5rem,42rem"    alt="UKIRT Extinction Map"      width="864"  height="486"  loading="lazy"/>          </div>  </a>  <h3 class="project-card-title flip-project-title">    <a href="/projects/extinction/" class="flip-title" property="mainEntityOfPage">UKIRT Extinction Map</a>  </h3>      <p class="project-card-text fine" property="disambiguatingDescription">      Near infrared maps using data from UKIRT telescope.    </p>      <a class="fill-card no-hover" href="/projects/extinction/" tabindex="-1"><span class="sr-only">Continue reading UKIRT Extinction Map</span></a></article>      </div>      </div></aside>
+  <aside class="other-projects related mb4" role="complementary">  <h2>Other Projects</h2>  <div class="columns">              <div class="column column-1-2">        <article  class="project-card"  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/quasar_luminosity/#project"  >  <meta property="name" content="Quasar Luminosity"/>  <meta property="image" content="https://user-images.githubusercontent.com/84037073/157300482-ddf8a6d5-e681-4991-846b-bca2c3c8066e.jpeg"/>  <a href="/projects/quasar_luminosity/" class="no-hover no-print-link flip-project" tabindex="-1">    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img ">              <img      src="https://user-images.githubusercontent.com/84037073/157300482-ddf8a6d5-e681-4991-846b-bca2c3c8066e.jpeg"        sizes="(min-width:86em)27.5rem,(min-width:54em)24.5rem,(min-width:42em)21.5rem,42rem"    alt="Quasar Luminosity"      width="864"  height="486"  loading="lazy"/>          </div>  </a>  <h3 class="project-card-title flip-project-title">    <a href="/projects/quasar_luminosity/" class="flip-title" property="mainEntityOfPage">Quasar Luminosity</a>  </h3>      <p class="project-card-text fine" property="disambiguatingDescription">      Coursework    </p>      <a class="fill-card no-hover" href="/projects/quasar_luminosity/" tabindex="-1"><span class="sr-only">Continue reading Quasar Luminosity</span></a></article>      </div>                  <div class="column column-1-2">        <article  class="project-card"  vocab="http://schema.org/" typeof="CreativeWork" resource="/projects/extinction/#project"  >  <meta property="name" content="UKIRT Extinction Map"/>  <meta property="image" content="/assets/img/projects/AK_PSF_2017_2_final.jpg"/>  <a href="/projects/extinction/" class="no-hover no-print-link flip-project" tabindex="-1">    <div class="project-card-img aspect-ratio sixteen-nine flip-project-img ">              <img      src="/assets/img/projects/AK_PSF_2017_2_final.jpg"        sizes="(min-width:86em)27.5rem,(min-width:54em)24.5rem,(min-width:42em)21.5rem,42rem"    alt="UKIRT Extinction Map"      width="864"  height="486"  loading="lazy"/>          </div>  </a>  <h3 class="project-card-title flip-project-title">    <a href="/projects/extinction/" class="flip-title" property="mainEntityOfPage">UKIRT Extinction Map</a>  </h3>      <p class="project-card-text fine" property="disambiguatingDescription">      Research    </p>      <a class="fill-card no-hover" href="/projects/extinction/" tabindex="-1"><span class="sr-only">Continue reading UKIRT Extinction Map</span></a></article>      </div>      </div></aside>
 
   
 
@@ -514,10 +518,6 @@ I am currently a double major in the Department of Physics and the Department of
     
       
       <a class="heading flip-title" href="/NOTICE/">NOTICE</a>
-      |
-    
-      
-      <a class="heading flip-title" href="/CHANGELOG/">CHANGELOG</a>
       
     
     </small></nav>
@@ -596,6 +596,18 @@ I am currently a double major in the Department of Physics and the Department of
           
         >
           Photography
+        </a>
+      </li>
+    
+      
+      <li>
+        <a
+          
+          href="/cv/"
+          class="sidebar-nav-item "
+          
+        >
+          Curriculum Vitae
         </a>
       </li>
     

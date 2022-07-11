@@ -57,6 +57,8 @@ menu:
     url:               /projects/
   - title:             Photography
     url:               /photography/
+  - title:             Curriculum Vitae
+    url:               /cv/
   # - title:             Documentation
     # url:               /docs/
 
@@ -67,8 +69,8 @@ legal:
     url:               /LICENSE/
   - title:             NOTICE
     url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+  # - title:             CHANGELOG
+    # url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2021. All rights reserved.
@@ -93,7 +95,8 @@ remote_theme: hydecorp/hydejack@v9
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/blood_moon.jpg
-accent_color:          rgb(79,177,186)
+accent_color:          rgb(255,95,0)
+#rgb(79,177,186)
 
 favicon: /assets/icons/favicon.ico
 

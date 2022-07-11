@@ -3,8 +3,7 @@ layout: project
 title: 'BiGANs for SETI'
 caption: Research
 description: >
-  This is a research project I started working on during the Summer Undergraduate Research Program, and have been working on since.
-  It is a continuation on work done by Dr. Samson Johnson during his 2019 JPL internship.
+  Summer research project at the Berkeley SETI Research SETI working on Bi-Directional Generative Adversarial Networks.
 date: 4 July 2022
 image: 
   path: /assets/img/projects/bl_greenbank.jpeg
@@ -19,14 +18,19 @@ accent_color: '#4fb1ba'
 theme_color: '#193747'
 sitemap: false
 ---
-The [*Nancy Grace Roman Space Telescope*](https://roman.gsfc.nasa.gov/) (*Roman*) will be conducting a near infrared microlensing towards the Galactic Center (GC).
-From 2015 to 2019, the [United Kingdom Infrared Telescope](https://about.ifa.hawaii.edu/ukirt/about-us/) (UKIRT) performed a pathfinder microlensing survey for *Roman*.
-UKIRT’s objective was to measure the microlensing event rate in the NIR due to its lessened extinction compared to the optical.
-We utilize the 2017 data from the UKIRT survey to create extinction and reddening maps towards the GC.
+In the hunt for extraterrestrial intelligence, we need every improving methods.
+Once of the hardest parts for the SETI mission is finding the needle in the haystack that is an ET signal.
+One of the ways to help parse through the petabytes of data is to let computers do it!
 
-For this work we utilized the Red Clump (RC) and a standard candle and crayon.
-A luminosity function was fit for the magnitude and color, using the methods of [Nataf et. al (2013)](https://ui.adsabs.harvard.edu/abs/2013ApJ...769...88N/abstract).
-Doing so, we were able to create maps with a resolution of 2 arcminutes for both the extinction and reddening.
+During my summer internship at the Berkeley SETI Research Center (BSRC) I have been working with Dr. John Hoang on machine learning algorithms to help detect anomolous signals from radio data.
+Specifically I am working on creating a type of neural network called a bi-directional generative adversarial network, or BiGAN.
+These algorithms have gained a lot of popularity lately and you might have seen them creating fake celebrity images or animals.
 
-The source code for this project can either be found at the link at the top of the project page, or [here](https://github.com/Shockblack/UKIRT_clean).
-I also have a first author paper in the works, with a first draft almost ready for review.
+My model will take in synthetic waterfall data created using Berkeley grad student Bryan Brzycki's [SETIGEN].
+The model will then create synthetic waterfall plots by competing its generated images against the synthetic ones created to train it.
+The model is "successful" when the generator confuses the model around half of the time, meaning that it can't destinguish between real and fake.
+
+During this internship I also visited my first professional conference!
+I attended Breakthrough Discuss 2022 alongside my fellow interns to learn about the leading developements in both the Breakthrough Listen and Breakthrough Starshot initiatives.
+
+[SETIGEN]: https://github.com/bbrzycki/setigen

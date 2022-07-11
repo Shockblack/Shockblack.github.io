@@ -35,5 +35,8 @@ The planet is naturally gorgeous and provides so many amazing opportunities, all
   
 </div>
 
-If you want to see more photos I've taken, as well as any knew ones in the future, check out my Instagram!
+Hover over a photo (click on mobile) to view the images in color!
+{:.figcaption}
+
+If you want to see more photos I've taken, as well as any new ones in the future, check out my Instagram!
 I post pictures from my adventures and occasionally of portraits I take for my friends.

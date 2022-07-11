@@ -1,20 +1,8 @@
-# Hydejack Starter Kit
+# Aiden Zelakiewicz's Personal Website
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
+I don't know why you're here instead of the [website] itself, but hello I guess!
+This website uses the [Hydejack] Jekyll template, so huge shoutouts to the creator of that.
+I wanted a clean looking website that was very customizable and could host all of my professional and personal interests on it.
 
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. Run `bundle install` [^1]
-4. Run `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
-
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://hydejack.com/docs/)
-* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
-
-[^1]: Requires Bundler. Install with `gem install bundler`.
-
-[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
+[Hydejack]: https://github.com/hydecorp/hydejack
+[website]: Shockblack.github.io

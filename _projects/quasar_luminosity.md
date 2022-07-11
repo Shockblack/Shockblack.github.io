@@ -3,8 +3,7 @@ layout: project
 title: 'Quasar Luminosity'
 caption: Coursework
 description: >
-  This is a research project I started working on during the Summer Undergraduate Research Program, and have been working on since.
-  It is a continuation on work done by Dr. Samson Johnson during his 2019 JPL internship.
+  Astronomy 3350 final project calculating quasar spectral energy distributions.
 date: 3 July 2022
 image: 
   path: https://user-images.githubusercontent.com/84037073/157300482-ddf8a6d5-e681-4991-846b-bca2c3c8066e.jpeg
@@ -19,14 +18,13 @@ accent_color: '#4fb1ba'
 theme_color: '#193747'
 sitemap: false
 ---
-The [*Nancy Grace Roman Space Telescope*](https://roman.gsfc.nasa.gov/) (*Roman*) will be conducting a near infrared microlensing towards the Galactic Center (GC).
-From 2015 to 2019, the [United Kingdom Infrared Telescope](https://about.ifa.hawaii.edu/ukirt/about-us/) (UKIRT) performed a pathfinder microlensing survey for *Roman*.
-UKIRT’s objective was to measure the microlensing event rate in the NIR due to its lessened extinction compared to the optical.
-We utilize the 2017 data from the UKIRT survey to create extinction and reddening maps towards the GC.
+For my final project in our Astronomy 3350 course, my group and I calculated the rest spectral flux density and spectral energy distributions (SED) of quasars using multiple surveys.
+This project was done alongside [Kevin Hoy], [Rachel Slaybaugh], [Simon Filbert], and Sebastian Nunez-Ceardi.
+Surveys where data has been acquired from are Sloan Digital Sky Survey (SDSS), Two Micron All Sky Survey (2MASS), and Wide-field Infrared Survey Explorer (WISE).
+All of the details outlining the methodology can be found in the Jupyter notebook in the [GitHub Repository].
+The notebook contains markdown for every step of the process alongside well documented code.
 
-For this work we utilized the Red Clump (RC) and a standard candle and crayon.
-A luminosity function was fit for the magnitude and color, using the methods of [Nataf et. al (2013)](https://ui.adsabs.harvard.edu/abs/2013ApJ...769...88N/abstract).
-Doing so, we were able to create maps with a resolution of 2 arcminutes for both the extinction and reddening.
-
-The source code for this project can either be found at the link at the top of the project page, or [here](https://github.com/Shockblack/UKIRT_clean).
-I also have a first author paper in the works, with a first draft being prepared review.
+[Rachel Slaybaugh]: https://github.com/slaybaugh21
+[Simon Filbert]: https://github.com/simonmf1
+[Kevin Hoy]: https://github.com/kevinmhoy
+[GitHub Repository]: https://github.com/Shockblack/Quasar-Luminosity

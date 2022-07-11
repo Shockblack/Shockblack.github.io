@@ -43,7 +43,7 @@ I got my first camera (the one I still use) shortly after and have been snapping
 To date I have taken over 3,000 photos and even won a competition for one I submitted!
 If you're curious about my photography, visit the [photography] page to see some of my work.
 
-<img style="float: right; padding-left: 7px;" src="/assets/img/aiden_mwl.jpg" width = "25%" height="auto"/>
+<img style="float: right; padding-left: 7px;" src="/assets/img/aiden_mwl.jpeg" width = "25%" height="auto"/>
 
 Another passion of mine that dates most of my life is video games.
 The first video game I played was the legendary Club Penguin back before I could properly multiply.

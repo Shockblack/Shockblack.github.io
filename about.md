@@ -46,11 +46,12 @@ If you're curious about my photography, visit the [photography] page to see some
 <img style="float: right; padding-left: 7px;" src="/assets/img/aiden_mwl.jpeg" width = "25%" height="auto"/>
 
 Another passion of mine that dates most of my life is video games.
-The first video game I played was the legendary Club Penguin back before I could properly multiply.
+The first video game I played was Club Penguin back before I could properly multiply.
 By the age of 14, I competed in my first invite-only tournament.
-By 15 I was traveling to LANs and a part of a Tier 3 team while competing against some of the best players in the world.
-I even got an acknowledgement by one of the tournament organizers for being a young rising star which was pretty cool 😁.
+By 15 I was traveling to LANs and a part of a tier 3 team while competing against some of the best players in the nation.
+I even got an acknowledgement by one of the tournament organizers for being a young rising star (which felt pretty cool 😁).
 
+Competing and practicing in every hour of my free time took a toll on me though.
 After a hiatus in competing due to burnout in my second year of high school, I founded my school's Esports club.
 The club became the second largest club for the two years I was president of it and bolstered over 10 different teams across 6 games.
 One of the teams I competed on for the club ranked third out of all high schools in the nation as well!

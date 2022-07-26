@@ -7,10 +7,6 @@ description: >
 date: 3 July 2022
 image: 
   path: https://user-images.githubusercontent.com/84037073/157300482-ddf8a6d5-e681-4991-846b-bca2c3c8066e.jpeg
-  # srcset: 
-    # 1920w: /assets/img/projects/qwtel.jpg
-    # 960w:  /assets/img/projects/qwtel@0,5x.jpg
-    # 480w:  /assets/img/projects/qwtel@0,25x.jpg
 links:
   - title: GitHub Repository
     url: https://github.com/Shockblack/Quasar-Luminosity

@@ -8,10 +8,6 @@ description: >
 date: 1 July 2021
 image: 
   path: /assets/img/projects/AK_PSF_2017_2_final.jpg
-  # srcset: 
-    # 1920w: /assets/img/projects/qwtel.jpg
-    # 960w:  /assets/img/projects/qwtel@0,5x.jpg
-    # 480w:  /assets/img/projects/qwtel@0,25x.jpg
 links:
   - title: GitHub Repository
     url: https://github.com/Shockblack/UKIRT_clean

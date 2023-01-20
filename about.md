@@ -56,4 +56,4 @@ While my ability to speak and write is poor, I am able to read manga which is cl
 The first manga I read in Japanese was Volume 0 of Jujutsu Kaisen (呪術廻戦), which was way too difficult.
 After that I learned my lesson and practice my reading on slice of life manga, and can do so with moderate ease!
 
-[photography]: photography
+[photography]: /photography

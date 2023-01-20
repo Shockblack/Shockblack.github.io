@@ -5,4 +5,4 @@ This website uses the [Hydejack] Jekyll template, so huge shoutouts to the creat
 I wanted a clean looking website that was very customizable and could host all of my professional and personal interests on it.
 
 [Hydejack]: https://github.com/hydecorp/hydejack
-[website]: Shockblack.github.io
+[website]: Zelakiewicz.dev

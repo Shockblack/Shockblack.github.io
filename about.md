@@ -18,18 +18,19 @@ In my spare time I enjoy landscape photography, playing video games, watching an
 I also enjoy going to local concerts and music festivals with my friends.
 
 ## Education
-I am currently working towards my B.S. in both Physics and Astronomy at The Ohio State University.
-Since the Summer of 2021 I have also been doing research within the Department of Astronomy & Astrophysics.
+I received my B.S. in Astronomy & Astrophysics at The Ohio State University in the Spring of 2023.
+Since the Summer of 2021 I have been doing research within OSU's Department of Astronomy & Astrophysics.
 This research has been working on creating near infrared extinction maps towards the Galactic Center, with a paper being prepared for publication.
 I've been on the Dean's List every semester since attending the university.
-I also won the Ann Slusher Tuttle Scholarship, a scholarship given to students nominated by faculty.
+I was also awared the Ann Slusher Tuttle Scholarship and L. Earl Slusher Scholarship from the department!
+Starting in the Fall of 2023 I will be joining Cornell University's Department of Astronomy as a first year PhD student!
 
-During the summer of 2022 I interned at the UC Berkeley SETI Research Center working on machine learning models.
-The particular models I'm working on are Conditional Bi-Directional Generative Adversarial Networks, or cBiGANS if you're like me and can't rattle all that off.
+During the Summer of 2022 I interned at the UC Berkeley SETI Research Center working on machine learning models.
+I buil a deep neural network called Conditional Bi-Directional Generative Adversarial Networks, or cBiGANS if you're like me and can't rattle all that off.
 These models are meant to create synthetic radio waterfall data to help it further find potential ETI signals.
 For more in-depth details on the project, you can read about it [here](/projects/seti-ml/).
 
-My goal is to go to grad school to get a PhD in Astronomy & Astrophysics.
+My goal is to go to grad school to get a PhD in Astronomy & Astrophysics. <--(First step accomplished!)
 Recently I have found a cross section of astronomy I really enjoy and am passionate about.
 The hope is to study exoplanets or other phenomenon from a machine learning angle to help automate and streamline our ability to process an ever-increasing amount of information.
 I've found that I really enjoy the coding side of research and the way machine learning/neural networks operate fascinate me.
@@ -51,9 +52,11 @@ By 15, I was traveling to LANs and a part of a tier 3 team while competing again
 I even got an acknowledgement by one of the tournament organizers for being a young rising star (which felt pretty cool 😁).
 After the release of Valorant following the pandemic, I also competed on Ohio State's BGC Valorant roster.
 
-Another hobby I picked up in late high school is learning Japanese!
-While my ability to speak and write is poor, I am able to read manga which is clearly the most imporant use!
-The first manga I read in Japanese was Volume 0 of Jujutsu Kaisen (呪術廻戦), which was way too difficult.
-After that I learned my lesson and practice my reading on slice of life manga, and can do so with moderate ease!
+Recently I also picked up playing guitar again, after not playing in roughly a decade.
+Of all the genres, I've been enjoying playing a lot of metal, shoegaze, neo-soul, and indie music.
+I (try to) play a lot of music from musicians/bands like Deftones, Ichika Nito, Eden, and Polyphia.
+Playing guitar has opened my ears up to types of music I never would've listened to before!
+My setup is an Ibanze QX52 headless guitar with a Boss Katana MKII amplifier.
+I love the setup because it can chug to the heavy metal while also dancing along to Ichika's tap playing.
 
-[photography]: /photography
+[photography]: /photography/photography.md

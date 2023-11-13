@@ -44,19 +44,4 @@ I got my first camera (the one I still use) shortly after and have been snapping
 To date I have taken over 3,000 photos and even won a competition for one I submitted!
 If you're curious about my photography, visit the [photography] page to see some of my work.
 
-<img style="float: right; padding-left: 7px;" src="/assets/img/aiden_mwl.jpeg" width = "25%" height="auto"/>
-
-Another passion of mine that dates most of my life is video games.
-At the age of 14 I competed in my first invite-only Counter-Strike tournament.
-By 15, I was traveling to LANs and a part of a tier 3 team while competing against some of the best players in the nation.
-I even got an acknowledgement by one of the tournament organizers for being a young rising star (which felt pretty cool 😁).
-After the release of Valorant following the pandemic, I also competed on Ohio State's BGC Valorant roster.
-
-Recently I also picked up playing guitar again, after not playing in roughly a decade.
-Of all the genres, I've been enjoying playing a lot of metal, shoegaze, neo-soul, and indie music.
-I (try to) play a lot of music from musicians/bands like Deftones, Ichika Nito, Eden, and Polyphia.
-Playing guitar has opened my ears up to types of music I never would've listened to before!
-My setup is an Ibanze QX52 headless guitar with a Boss Katana MKII amplifier.
-I love the setup because it can chug to the heavy metal while also dancing along to Ichika's tap playing.
-
 [photography]: /photography/photography.md

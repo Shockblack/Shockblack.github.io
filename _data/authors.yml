@@ -9,8 +9,8 @@ author1:
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
     Hello!
-    My name is Aiden Zelakiewicz and I am a first year PhD student at Cornell University.
-    I recieved my B.S. in Astronomy from the Department of Astronomy & Astrophysics at The Ohio State University.
+    My name is Aiden Zelakiewicz and I'm an Astronomy PhD student at Cornell University.
+    I recieved my B.S. from the Department of Astronomy & Astrophysics at The Ohio State University.
 
   # This photo will be used in the about section
   picture:

@@ -2,8 +2,7 @@
 layout: about
 image: /assets/img/blog/hydejack-9.jpg
 description: >
-  A boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  PhD student at Cornell University.
 hide_description: true
 redirect_from:
   - /download/
@@ -18,15 +17,15 @@ In my spare time I enjoy landscape photography, playing video games, watching an
 I also enjoy going to local concerts and music festivals with my friends.
 
 ## Education
+I am a PhD student at the Cornell University Department of Astronomy since the Fall of 2023.
+Along with my advisors Lisa Kaltenegger and Dmitry Savransky, I work to model exoplanet atmosphere and surface retrievals using the *Habitable Worlds Observatory*.
 I received my B.S. in Astronomy & Astrophysics at The Ohio State University in the Spring of 2023.
-Since the Summer of 2021 I have been doing research within OSU's Department of Astronomy & Astrophysics.
+Since the Summer of 2021, I conducted research within OSU's Department of Astronomy & Astrophysics.
 This research has been working on creating near infrared extinction maps towards the Galactic Center, with a paper being prepared for publication.
-I've been on the Dean's List every semester since attending the university.
-I was also awared the Ann Slusher Tuttle Scholarship and L. Earl Slusher Scholarship from the department!
-Since the Fall of 2023 have been a PhD student at Cornell University's Department of Astronomy!
+I've been on the Dean's List every semester since attending the university and was also awarded the Ann Slusher Tuttle Scholarship and L. Earl Slusher Scholarship!
 
 During the Summer of 2022 I interned at the UC Berkeley SETI Research Center working on machine learning models.
-I buil a deep neural network called Conditional Bi-Directional Generative Adversarial Networks, or cBiGANS if you're like me and can't rattle all that off.
+I built a deep neural network called Conditional Bi-Directional Generative Adversarial Networks (cBiGANS).
 These models are meant to create synthetic radio waterfall data to help it further find potential ETI signals.
 For more in-depth details on the project, you can read about it [here](/projects/seti-ml/).
 

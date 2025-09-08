@@ -12,13 +12,16 @@ redirect_from:
 
 <!--author-->
 
-Raised in Albany, living in Milwaukee, studying in Columbus, and dreaming of San Francisco.
-In my spare time I enjoy landscape photography, playing video games, watching anime, and critiquing various local and campus coffee shops.
+Computational Astronomer and opinion haver trying to search for alien life outside of Ithaca, New York.
+In my spare time I enjoy photography, playing video games, playing guitar, rock climbing, and critiquing various local and campus coffee shops.
 I also enjoy going to local concerts and music festivals with my friends.
 
 ## Education
-I am a PhD student at the Cornell University Department of Astronomy since the Fall of 2023.
-Along with my advisors Lisa Kaltenegger and Dmitry Savransky, I work to model exoplanet atmosphere and surface retrievals using the *Habitable Worlds Observatory*.
+I am a Ph.D. student at the Cornell University Department of Astronomy since the Fall of 2023.
+I work with Professors Lisa Kaltenegger and Dmitry Savransky to model exoplanet atmosphere and surface retrievals using the *Habitable Worlds Observatory*.
+I combine thorough models of HWO noise sources with high resolution terrestrial planet reflection spectra to mimick the high level data products we may expect to analyze after launch.
+In addition to this work, I also work implementing new features to the exoplanet mission simulation code `EXOSIMS`.
+
 I received my B.S. in Astronomy & Astrophysics at The Ohio State University in the Spring of 2023.
 Since the Summer of 2021, I conducted research within OSU's Department of Astronomy & Astrophysics.
 This research has been working on creating near infrared extinction maps towards the Galactic Center, with a paper being prepared for publication.
@@ -29,17 +32,15 @@ I built a deep neural network called Conditional Bi-Directional Generative Adver
 These models are meant to create synthetic radio waterfall data to help it further find potential ETI signals.
 For more in-depth details on the project, you can read about it [here](/projects/seti-ml/).
 
-Recently I have found a cross section of astronomy I really enjoy and am passionate about.
-The hope is to study exoplanets or other phenomenon from a machine learning angle to help automate and streamline our ability to process an ever-increasing amount of information.
-I've found that I really enjoy the coding side of research and the way machine learning/neural networks operate fascinate me.
-
 ## Hobbies
 
 <img style="float: left; padding-right: 7px;" src="/assets/img/aiden_camera.jpeg" width = "17%" height="auto"/>
-As you may have noticed from the tab on the sidebar, but I love photography.
-Ever since I got my hands on my friend's camera on a school trip in 2017 I had an itch to take photos.
+As you may have noticed from the tab on the sidebar, I love photography.
 I got my first camera (the one I still use) shortly after and have been snapping photos wherever I go since.
 To date I have taken over 3,000 photos and even won a competition for one I submitted!
 If you're curious about my photography, visit the [photography] page to see some of my work.
+
+I also play a lot of guitar in my free time.
+My rig currently consists of an Ibanez QX52 and Schecter Demon 7 routed into a Boss Katana MK2.
 
 [photography]: /photography/photography.md

@@ -24,7 +24,7 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         ShockblackAstro
+    # twitter:         ShockblackAstro
     github:          Shockblack
     email:           asz39@cornell.edu
     # rss:             https://<url>/feed.xml
@@ -37,7 +37,7 @@ author1:
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    instagram:       nedia.film
+    # instagram:       nedia.film
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>

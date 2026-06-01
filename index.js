@@ -1,14 +1,14 @@
 function showabout(){
     $("#about_container").css("display","inherit");
-    $("#about_container").addClass("animated slideInLeft");
+    $("#about_container").addClass("animated slideInDown");
     setTimeout(function(){
-        $("#about_container").removeClass("animated slideInLeft");
+        $("#about_container").removeClass("animated slideInDown");
     },1000);
 }
 function closeabout(){
-    $("#about_container").addClass("animated slideOutLeft");
+    $("#about_container").addClass("animated slideOutUp");
     setTimeout(function(){
-        $("#about_container").removeClass("animated slideOutLeft");
+        $("#about_container").removeClass("animated slideOutUp");
         $("#about_container").css("display","none");
     },1000);
 }

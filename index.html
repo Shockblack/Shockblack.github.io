@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aiden S. Zelakiewicz</title>
+      <link rel="icon" type="image/x-icon" href="/src/HWO.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.2/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <style>
+    body {
+        margin: 0;
+        background-color: black;
+    }
+    </style>
+    <script type="importmap">
+      {
+				"imports": {
+					"three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+        }
+			}
+    </script>
+    </head>
+  <body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js-1"></div>
+    <div id="particles-js-2"></div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">research</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <a id="outreach" onclick="showoutreach()" class="animated fadeIn" style="animation-delay:2.2s;">outreach</a>
+    <a id="cv" href="src/Zelakiewicz_Aiden_CV.pdf" target="_blank" class="animated fadeIn" style="animation-delay:2.2s;">cv</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:0.5s;">
+        <h1>Aiden S. Zelakiewicz</h1>
+        <h2>Astronomer / PhD Candidate</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">research</a>
+            <a onclick="showcontact()">contact</a>
+            <a onclick="showoutreach()">outreach</a>
+            <a href="src/Zelakiewicz_Aiden_CV.pdf" target="_blank">cv</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" target="_blank" rel="noopener noreferrer" href="https://github.com/Shockblack"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" target="_blank" rel="noopener noreferrer" href="https://orcid.org/0000-0002-6387-7729"><i class="fab fa-orcid"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/zelakiewicz/"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="mailto:asz39@cornell.edu"><i class="fa fa-envelope"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-up"></i></div>
+        <table>
+                <tr>
+                    <td><h1>research.</h1></td>
+                    <td width="40px"></td>
+                    <td><a href="https://scixplorer.org/search?p=1&q=orcid%3A0000-0002-6387-7729&sort=date+desc&d=general"><button class="btn_one">My Work on SciX</button></a></td>
+                </tr>
+        </table>
+        <section>
+            <h2>retrievals</h2>
+            <!-- Description of Retrieval Work -->
+            <table>
+            <td><p>
+                Future space telescopes, such as the Habitable Worlds Observatory (HWO), will have the capability to directly image and spectrally characterize terrestrial exoplanets. Atmospheric retrievals are a powerful tool for interpreting these spectra, allowing us to infer the atmospheric properties and potential habitability of these worlds. I work to understand what we can learn about terrestrial exoplanets with retrievals, including what may complicate our interpretations, such as degeneracies and model assumptions.
+            </p></td>
+            <td><img src="src/retrieval_gasphase_MODIS_dark.png" alt="retrieval example"></td>
+            </table>
+
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Highlighted Papers on Retrievals</div>
+            </div>
+            <a href="https://www.spiedigitallibrary.org/journals/Journal-of-Astronomical-Telescopes-Instruments-and-Systems/volume-12/issue-04/041009/Identifying-surface-degeneracies-in-single-visit-reflected-light-observations-of/10.1117/1.JATIS.12.4.041009.full?tab=ArticleLink"><button class="btn_two">Degeneracies in Retrievals of HWO Observations</button></a>
+
+        </section>
+
+        <section>
+            <h2>mission simulations</h2>
+            <!-- Description of Mission Simulation Work -->
+            <table>
+            <td><p>
+                I work to understand the science yield of future exoplanet direct imaging missions, such as HWO, through mission simulations. These simulations couple detailed astrophysical models of exoplanet populations with realistic instrument models to predict the number and types of planets that we may detect and characterize with these missions. This work is critical for informing the design of these missions and maximizing their scientific return.
+            </p></td>
+            <td><video width="100%" height="100%" autoplay loop muted>
+                  <source src="src/eac5_aper_animation.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+                </td>
+            </table>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Highlighted Papers on Mission Simulations</div>
+            </div>
+            <a href="https://www.spiedigitallibrary.org/journals/Journal-of-Astronomical-Telescopes-Instruments-and-Systems/volume-12/issue-04/041009/Identifying-surface-degeneracies-in-single-visit-reflected-light-observations-of/10.1117/1.JATIS.12.4.041009.full?tab=ArticleLink"><button class="btn_two">Degeneracies in Retrievals of HWO Observations</button></a>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <table>
+              <tr>
+                <td><h1>about.</h1></td>
+                <td width="40px"></td>
+                <td><div id="pfp"><img src="src/Aiden.jpeg" alt="profile picture"></div></td>
+              </tr>
+            </table>
+            <section>
+                <!-- <h2>about me</h2> -->
+                <p>
+                    My name is Aiden Zelakiewicz, and I am currently a PhD candidate in the Department of Astronomy at Cornell University. I started at Cornell after receiving my B.S. in Astronomy & Astrophysics from The Ohio State University in 2023. My research focuses on detecting and characterizing terrestrial exoplanets in reflected light. These planets are the next frontier in exoplanet science, and the goal of NASA's next flagship-class astrophysics mission, the Habitable Worlds Observatory (HWO). My work couples detailed atmospheric and surface models of terrestrial exoplanets with realistic instrument models to better understand the spectral science yield with algorithms such as atmospheric retrievals. I am an avid proponent of open source software, and actively contribute to the <a href="https://github.com/MartianColonist/POSEIDON">POSEIDON</a> and <a href="https://github.com/dsavransky/EXOSIMS">EXOSIMS</a> packages, which are used for atmospheric retrievals and exoplanet mission simulations, respectively.
+                </p>
+                <p>
+                    I also am incredible passionate about science outreach, education, and community building. I have been involved in a number of outreach and education initiatives, including the University of Arizona's Astronomy Camp, developing the Cornell University Research Experience for Undergraduates (REU) Python Bootcamp, and leading the TA training for astronomy graduate students. I serve as the president of the Astronomy Graduate Network, acting as a liaison between the graduate student body and the department while also organizing social events.
+                </p>
+                <p>
+                    I also try to have a life outside of astronomy. To make sure I never break out of the astronomy graduate student stereotype, you may find me at your local climbing gym. I further destroy my fingers by playing guitar (badly). My rig is an Ibanez QX52 and Schecter Demon 7 routing to a Boss Katana. I also enjoy playing video games and have recently started a vintage video game collection, including a SNES, N64, Wii (yes, that's "vintage" now), DS Lite, GBA, and GB Color.
+                </p>
+            </section>
+            <!-- <section>
+                <h2>skills</h2>
+                <p>
+                    i do eveything ;)
+                </p>
+            </section> -->
+      </div>
+    <div id="outreach_container" class="container">
+            <div onclick="closeoutreach()"><i class="fas fa-angle-down"></i></div>
+            <h1>outreach.</h1>
+            <section>
+                <h2>Astronomy Camp</h2>
+                <!-- Description of Astronomy Camp -->
+            <p>Astronomy Camp</p>
+
+        </section>
+    </div>
+    <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                </p>
+            </section>
+    </div>
+    <!-- <div id="footer">
+            made on earth by a human <br> <a href="https://shockblack.github.io">imfunniee</a>
+        </div> -->
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script type="module" src="planet.js"></script>
+  </body>
+</html>

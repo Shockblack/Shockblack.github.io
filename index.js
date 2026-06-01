@@ -26,18 +26,18 @@ function closework(){
         $("#work_container").css("display","none");
     },1000);
 }
-function showcontact(){
-    $("#contact_container").css("display","inherit");
-    $("#contact_container").addClass("animated slideInDown");
+function showmentorship(){
+    $("#mentorship_container").css("display","inherit");
+    $("#mentorship_container").addClass("animated slideInDown");
     setTimeout(function(){
-        $("#contact_container").removeClass("animated slideInDown");
+        $("#mentorship_container").removeClass("animated slideInDown");
     },1000);
 }
-function closecontact(){
-    $("#contact_container").addClass("animated slideOutUp");
+function closementorship(){
+    $("#mentorship_container").addClass("animated slideOutUp");
     setTimeout(function(){
-        $("#contact_container").removeClass("animated slideOutUp");
-        $("#contact_container").css("display","none");
+        $("#mentorship_container").removeClass("animated slideOutUp");
+        $("#mentorship_container").css("display","none");
     },1000);
 }
 function showoutreach(){
@@ -61,7 +61,7 @@ setTimeout(function(){
       $("#loading").css("display","none");
       $("#box").css("display","none");
       $("#about").removeClass("animated fadeIn");
-      $("#contact").removeClass("animated fadeIn");
+      $("#mentorship").removeClass("animated fadeIn");
       $("#outreach").removeClass("animated fadeIn");
       $("#work").removeClass("animated fadeIn");
     },1000);
